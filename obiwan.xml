@@ -13,7 +13,7 @@
   <project path="vendor/asus/obiwan" name="StudioKeys-Dumps/vendor_asus_obiwan" remote="githubssh" revision="voyager" />
   <project path="vendor/oneplus/dolby" name="StudioKeys-Dumps/vendor_oneplus_dolby" remote="githubssh" revision="voyager" />
   
-  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="06ab24e490fb1ef79353a7c032278ff3a4b6e072" upstream="lineage-22.2" dest-branch="lineage-22.2" >
+  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="lineage-22.2 >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
